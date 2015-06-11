@@ -1,0 +1,10 @@
+framework module AnalyticsSwift {
+  umbrella header "AnalyticsSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module AnalyticsSwift.Swift {
+    header "AnalyticsSwift-Swift.h"
+}
